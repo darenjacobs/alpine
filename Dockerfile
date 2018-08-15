@@ -24,4 +24,4 @@ RUN apk upgrade --update && \
     rm -rf /tmp/* && \
     rm -rf /var/log/*
 
-COPY dockerwait.sh /usr/bin/dockerwait
+COPY bin/dockerwait.sh /usr/bin/dockerwait
